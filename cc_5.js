@@ -27,3 +27,9 @@ class Manager extends Employee {
         return totalAnnualSalary;
     }
 }
+
+// step 3: Instantiate manager objects
+const manager1 = new Manager('Bob Ross', 6600, 'Digital Marketing');
+const manager2 = new Manager('Debbie Little', 7205, 'Finance');
+console.log(`Annual Salary of ${manager1.name}: ${manager1.getAnnualSalary()}`);
+console.log(`Annual Salary of ${manager2.name}: ${manager2.getAnnualSalary()}`);
